@@ -1,0 +1,83 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f2f6;
+  margin: 0;
+}
+
+.bg-purple {
+  background-color: #6f42c1; /* Ungu */
+  color: white;
+}
+
+.top-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between; /* Distribute space between left and right */
+}
+
+.btn-back {
+  background-color: #ff0000;
+  color: #fff; /* White text for the button */
+  margin-top: 40px; /* Adjusted for the top icons */
+}
+.col-6 {
+  margin-top: 40px; /* Add space above the location section */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+/* Product Details Section */
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.rarity {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.price {
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-Buy {
+  bottom: 20px;
+  left: 55%;
+  z-index: 1;
+}
+
+.btn-Buy .btn {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,146 @@
+/* General Layout Adjustments */
+body {
+  background-color: #0172b6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding-bottom: 0px;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  background: url("detailItem/assets/HW-background-mobile.jpg");
+}
+
+.top-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between; /* Distribute space between left and right */
+}
+
+.location-search-container {
+  margin-top: 40px; /* Add space above the location section */
+}
+
+.location-info {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.text-center {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #333333;
+}
+
+h1 {
+  font-family: "Impact", sans-serif;
+  color: #ffda00;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  font-size: 6rem;
+}
+
+.promo-banner {
+  background-color: #ff0000; /* Hotwheels red */
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.promo-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.promo-text {
+  font-size: 0.9rem;
+}
+
+/* Search bar styling */
+.search-bar {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  border-radius: 20px;
+  padding-left: 40px;
+  border: 1px solid #ddd;
+}
+
+.search-bar i {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  color: #6c757d;
+}
+
+/* Bottom Navigation Bar Styling */
+.navbar {
+  background-color: #ffcc00 !important; /* Hotwheels red */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-dark .nav-link.active {
+  color: white;
+}
+
+.category-tabs {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+  padding: 5px 0;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.category-tabs .nav-link {
+  color: #495057;
+  border: none;
+  padding: 8px 15px;
+}
+
+.category-tabs .nav-link.active {
+  color: #ffcc00; /* Hotwheels yellow */
+  border-bottom: 2px solid #ffcc00;
+  background-color: transparent;
+}
+
+.Product-item .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Style the Beli button */
+.btn-buy {
+  background-color: #ffcc00;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.85rem; /* Smaller button size */
+  display: flex;
+  align-items: center;
+}
+
+.btn-buy i {
+  margin-right: 5px;
+}

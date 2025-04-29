@@ -1,0 +1,43 @@
+.hero-section {
+  background: url("detailItem/assets/onBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: "Impact", sans-serif; /* Font yang lebih bold dan energik */
+  color: #ffe72c; /* Warna kuning untuk teks utama */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Memberikan efek bayangan untuk teks */
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-primary {
+  background-color: #ff9900; /* Warna tombol lebih mencolok */
+  color: #000000;
+  border: none;
+  width: 95%;
+  font-weight: bold;
+  border-radius: 50px; /* Membuat tombol lebih modern dan dinamis */
+  transition: all 0.3s ease-in-out; /* Animasi saat hover */
+}
+
+.btn-primary:hover {
+  background-color: #ff6600; /* Warna hover yang lebih gelap */
+  transform: scale(1.1); /* Efek pembesaran pada hover */
+}
+
+.text-center {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #333333;
+}

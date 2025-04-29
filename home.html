@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HWShop</title>
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="top-icons position-fixed top-0 start-0 p-3">
+      <div class="d-flex align-items-center text-white">
+        <p class="me-3 fs-5">9:41</p>
+      </div>
+      <div class="d-flex align-items-center text-white">
+        <i class="bi bi-wifi fs-4 me-3"></i>
+        <i class="bi bi-battery-half fs-4"></i>
+      </div>
+    </div>
+    <!-- lokasi -->
+    <div class="container-fluid location-search-container py-3">
+      <div class="row align-items-center mt-3 mb-2">
+        <div class="col">
+          <p class="text-white-50 mb-0">Location</p>
+          <h5 class="text-white mb-0">
+            Lowokwaru, Malang
+            <i class="bi bi-chevron-down icon-arrow"></i>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar mb-3">
+      <i class="bi bi-search"></i>
+      <input type="text" class="form-control" placeholder="Search Hotwheels" />
+    </div>
+
+    <!-- Promo Banner -->
+    <div class="promo-banner rounded mb-3">
+      <div class="promo-content">
+        <div class="promo-title">Special Offer</div>
+        <div class="promo-text">Buy one get one FREE</div>
+      </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <ul class="nav category-tabs mb-4" id="categoryTabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Premium</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Mainline</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Track Sets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Collections</a>
+      </li>
+    </ul>
+
+    <!-- Product Section -->
+    <section class="py-5" id="Product">
+      <div class="container">
+        <div class="row">
+          <!-- Product 1 -->
+          <div class="col-6 col-md-6 mb-4">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/69ChevyTruck.jpeg"
+                class="card-img-top img-fluid"
+                alt="'69 Chevy Truck"
+              />
+              <div class="card-body">
+                <h5 class="card-title">'69 Chevy Truck</h5>
+                <p class="card-text">Truck</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 2.69</p>
+                  <a href="/detailItem/chevyDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="col-6 col-md-6 mb-4">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/boneShaker.jpg"
+                class="card-img-top img-fluid"
+                alt="Bone Shaker"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bone Shaker</h5>
+                <p class="card-text">Collector</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 3.49</p>
+                  <a href="/detailItem/bonesDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="col-6 col-md-6 mb-4">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/nissanSkyline.jpeg"
+                class="card-img-top img-fluid"
+                alt="Nissan Skyline"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nissan Skyline</h5>
+                <p class="card-text">Premium</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 4.99</p>
+                  <a href="/detailItem/nissansDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-6 col-md-6 mb-5">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/trackSet.jpg"
+                class="card-img-top img-fluid"
+                alt="Track Set"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tornado Set</h5>
+                <p class="card-text">Track sets</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 24.99</p>
+                  <a href="/detailItem/tornadoDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="col-6 col-md-6 mb-5">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/FordMustang.jpg"
+                class="card-img-top img-fluid"
+                alt="Ford Mustang"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ford Mustang</h5>
+                <p class="card-text">Premium</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 5.99</p>
+                  <a href="/detailItem/fordDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="col-6 col-md-6 mb-5">
+            <div class="card Product-item">
+              <img
+                src="detailItem/assets/Porsche911.jpeg"
+                class="card-img-top img-fluid"
+                alt="Porsche 911"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Porsche 911</h5>
+                <p class="card-text">Premium</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="menu-price">$ 6.99</p>
+                  <a href="/detailItem/porcheDetail.html" class="btn btn-buy">
+                    <i class="bi bi-cart-plus"></i>BUY
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Navigation -->
+    <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
+      <div class="container justify-content-around">
+        <a class="nav-link active" href="#">
+          <i class="bi bi-house"></i>
+        </a>
+        <a class="nav-link" href="#">
+          <i class="bi bi-search"></i>
+        </a>
+        <a class="nav-link" href="#">
+          <i class="bi bi-cart"></i>
+        </a>
+        <a class="nav-link" href="#">
+          <i class="bi bi-person"></i>
+        </a>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
